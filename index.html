@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 14</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">A cerca de</a></li>
+                <li><a href="#services">Servicios</a>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <button id="nav-toggle" aria-label="Toggle navigation"><img src="menu.png" width="60" height="70" ></button>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <section id="home">
+                <h1>INICIO:</h1>
+                <p>Aca se encuentra el contenido incicial de la pagina.</p>
+                <article>
+                    <h2>Los Inicios:</h2>
+                    <p>La pagina incia como una actividad propuesta por el bootcamp TalentoTech Caribe.</p>
+                </article>
+                <button onclick="mostrarMensaje('Inicio')">Mostrar</button>
+            </section>
+            <section id="about">
+                <h1>ACERCA DE:</h1>
+                <p>Aca se encuentra la informacion <span class="estyleSp">relevante acerca de la misma</span>.</p>
+                <button onclick="mostrarMensaje('ACERCA DE')">Mostrar</button>
+            </section>
+            <section id="services">
+                <h1>SERVICIOS:</h1>
+                <p>Aca se encuentran los servicios afines con los que contamos.</p>
+                <button onclick="mostrarMensaje('SERVICIOS')">Mostrar</button>
+            </section>
+            <section id="contact">
+                <h1>CONTACTO:</h1>
+                <p>Aca se encuentran los modos de contactar con nosotros.</p>
+                <button onclick="mostrarMensaje('CONTACTO')">Mostrar</button>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
